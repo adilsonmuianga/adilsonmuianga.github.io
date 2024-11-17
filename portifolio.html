@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portifólio Adilson Muianga</title>
+    <link rel="stylesheet" href="portifolio.css">
+</head>
+<body>
+    
+    <!--A div Principal-->
+    <div class="container">
+
+        <!--parte esquerda da página-->
+        <div class="esquerda">
+            <div class="nome">
+                <label for="nome">Adilson</label>
+                <br>
+                <label for="apelido">Muianga</label>
+                <br>
+                <label for="detalhes">Moçambicano | Solteiro  | 19 anos</label>
+            </div>
+
+            <!--Barra  da Educacao-->
+            <div class="educacao">
+                <label for="educacao">Educação</label>
+            </div>
+
+            <!--Detalhes da educacao-->
+            <div class="detalhes-educacao">
+                <ul class="ul">
+                    <li> <h3>Ensino Secundário</h3>
+                        <ul > 
+                            <li>Escola Secundária Quisse Mavota (2022)</li>
+                        </ul>
+                    </li>
+
+                    <li> <h3>Licenciatura</h3>
+                        <ul > 
+                            <li>3ᵒ ano de Engenharia Informática (Início em 2023)</li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+
+            <!--Barra de Competencias e Habilidades-->
+            <div class="competencias">
+                <label for="competencias">Habilidades</label>
+            </div>
+
+            <!--Detalhes da Compete/Habilidades-->
+            <div class="detalhes-habilidades" style="margin-left: 8%;">
+               
+                <h3><ul style="font-style: oblique; ">
+                    <li>Desenvolvimento de Software ( <a rel="noopener noreferrer" target="_blank" href="https://pt.wikipedia.org/wiki/Java_(linguagem_de_programa%C3%A7%C3%A3o)">Java</a>, <a href="https://pt.wikipedia.org/wiki/C%2B%2B" target="_blank" rel="noopener noreferrer">C++</a> )</li>
+                    <li>Desenvolvimento web ( <a href="https://pt.wikipedia.org/wiki/HTML" target="_blank" rel="noopener noreferrer">HTML</a>, <a href="https://pt.wikipedia.org/wiki/Cascading_Style_Sheets" target="_blank" rel="noopener noreferrer"> CSS</a>, <a href="https://pt.wikipedia.org/wiki/JavaScript" target="_blank" rel="noopener noreferrer">JavaScript</a> )</li>
+                    <li>Sistemas Operativos ( <a href="https://pt.wikipedia.org/wiki/Linux" target="_blank" rel="noopener noreferrer">Linux</a>, <a href="https://pt.wikipedia.org/wiki/Microsoft_Windows" target="_blank" rel="noopener noreferrer">Windows</a> )</li>
+                    <li>Base de Dados relacionais</li>
+                    <li>Administração de Base de Dados</li>
+                    <li>Estatística Multivariada</li>
+                </h3>    
+                </ul>
+
+            </div>             
+
+
+
+
+        </div>
+
+        <!--Parte direita da página-->
+        <div class="direita">
+
+            <!-- Imagem de perfil -->
+            <div class="foto">
+                <img src="minha.jpg" alt="Foto de Perfil">
+            </div>
+            
+
+            <div class="contacto">
+                <label for="contacto"><center>Contacto</center></label>
+                <ul list-style-type: none;">
+                    <!-- telefone -->
+                    <center><li style="list-style-image: url('telephone1.png');"><a href="tel:+258845491101">Ligar para 84-5491-101</a></li></center>
+                    <br>
+                    <!-- Email -->
+                    <center><li style="list-style-image: url('email.png');"><a href="mailto:adilsonmuianga3@gmail.com?subject=Contato%20Importante&body=Olá,%20gostaria%20de%20entrar%20em%20contato..." target="_blank">Envie um e-mail</a></li></center>
+                    <br>
+                    <!-- whatsapp -->
+                    <center><li style="list-style-image: url('whatsapp.png');"><a href="https://wa.me/258845491101" target="_blank">Whatsapp</a></li></center>
+                    <br>
+                    <!-- Instagram -->
+                    <center><li style="list-style-image: url('instagram.png');"><a href="http://www.instagram.com/pontaic.adilson/" target="_blank" rel="noopener noreferrer">Instagram</a></li></center>
+                    <br>
+                    <!-- Linkedin -->
+                    <center><li style="list-style-image: url('linkedin.png');"><a href="http://www.linkedin.com/in/adilson-muianga-b98b312a4" target="_blank" rel="noopener noreferrer">Linkedin</a></li></center>
+                </ul>
+            </div>
+
+            <hr>
+            
+            <div class="formulario">
+               
+                <h1 style="font-style: oblique;">FeedBack</h1>
+                <form action="https://formspree.io/f/mnnqzqzp" method="post" id="form">
+                    <label for="nome1">Nome:</label>
+                    <input type="text" id="nome" name="nome"><br><br>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email"><br><br>
+                    <label for="mensagem">Introduza a sua crítica:</label>
+                    <br>
+                    <textarea name="mensagem" id="mensagem"></textarea>
+                    <br>
+                    
+                    <input type="submit" value="Enviar">
+                </form>
+                
+            </div>
+            
+        </div>
+
+
+
+    </div>
+   
+
+    <footer> <p>&copy; 2024 Adilson Muianga. Todos os direitos reservados.</p>
+</body>
+</html>

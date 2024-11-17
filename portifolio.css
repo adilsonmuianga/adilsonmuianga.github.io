@@ -1,0 +1,172 @@
+body{
+    background-color:  rgb(8, 32, 114);
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* O Container principal */
+.container{
+    display: flex;
+}
+
+/* Listas não ordenadas */
+/* ul{
+    list-style-type: disc;
+} */
+/* Somente para lista dentro de outras listas */
+li ul{
+    list-style-type: none;
+}
+
+/* div da parte esquerda */
+.esquerda{
+    background-color: white;
+    width: 68%;
+    height: 100vh;
+    border-bottom-right-radius: 18px; /* Apenas o canto inferior direito */
+    border-top-right-radius: 18px; /* Apenas o canto inferior direito */
+    /* color: rgb(19, 59, 19); */
+}
+
+/* div da parte direita */
+.direita{
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    position: relative;
+    background-color: rgb(8, 32, 114);
+    width: 32%;
+    height: 100vh;
+}
+
+/* div do nome, idade etc */
+.nome{
+    text-align: center;
+    margin-right: 18%;
+    margin-top: 8%;
+}
+
+/* Labels do nome apelido */
+label[for="nome"], [for="apelido"]{
+    color : rgb(8, 32, 114);
+    font-size: 80px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    cursor: auto;
+    text-shadow: 10px 10px 10px rgba(0, 0, 0, 0.3);
+}
+
+label[for="detalhes"]{
+    color: rgb(8, 32, 114);
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-style: normal;
+    cursor: auto;
+}
+
+/* Educacao */
+.educacao{
+    color: white;
+    background-color: rgb(8, 32, 114);
+    text-align: center ;
+    font-size: 50px;
+    width: 70%;
+    margin-top: 13%;
+    margin-left: 1%;
+    border-bottom-right-radius: 18px; /* Apenas o canto inferior direito */
+    border-top-right-radius: 18px; /* Apenas o canto inferior direito */
+    
+}
+
+/* Texxto educacao */
+/* label[for="educacao"]{
+   
+} */
+
+.detalhes-educacao{
+    margin-left: 8%;
+}
+
+/* Competencias e Habilidades */
+.competencias{
+    color: white;
+    background-color: rgb(8, 32, 114);
+    text-align: center ;
+    font-size: 50px;
+    width: 60%;
+    margin-top: 4%;
+    margin-left: 1%;
+    border-bottom-right-radius: 18px; /* Apenas o canto inferior direito */
+    border-top-right-radius: 18px; /* Apenas o canto inferior direito */
+    
+}
+
+
+/* Parte direita                                 */
+/* div de contacto */
+.contacto{
+    color: black;
+    background: linear-gradient(to left, white 50%, rgb(8, 32, 114) 50%); /*Para ter duas cores*/
+    margin-top: 10%;
+    margin-right: 8%;
+    margin-left: 8%;
+    border: 1px solid #ccc;
+    justify-content: center;
+    border-radius: 18px; /* Arredonda todos os cantos */
+    transform: translateX(-59.7%); /* Ajuste fino para centralizar */
+}
+
+label[for="contacto"]{
+    font-size: 60px;
+}
+
+/* Lista dentro da div */
+hr{
+    width: 70%; /* Ocupa 50% da largura do contêiner */
+}
+
+/* Ancoras que estao na div contacto */
+.contacto a{
+    color: black;
+    font-size: large;
+}
+a:hover {
+    color: red; /* Cor ao passar o mouse */
+}
+
+/* Formulario */
+.formulario {
+    color: rgb(8, 32, 114);
+    background-color: white;
+    display: flex; /* Ativa o flexbox */
+    flex-direction: column; /* Alinha os itens na vertical */
+    align-items: center; /* Centraliza os itens horizontalmente */
+    justify-content: center; /* Centraliza os itens verticalmente */
+    padding: 20px; /* Espaçamento interno */
+    width: 80%; /* Largura do formulário */
+    margin: 0 auto; /* Centraliza o contêiner na página */
+    border-radius: 18px; /* Arredonda todos os cantos */
+    margin-top: 3.6cm; /* Espaçamento superior automático */ 
+    position: relative;
+}
+
+/* Seleciona todos os filhos diretos da div .formulario */
+.formulario > * {
+    text-align: center;
+    /* Faz com que ocupem 100% da largura do pai */ 
+}
+
+/* div da foto */
+.foto{
+    border-radius: 40%;
+    text-align: center;
+}
+
+/* a foto */
+img{
+    width: 500px;
+    height: 550px;
+    border-radius: 50%;
+}
+
+footer{
+    text-align: center;
+}
